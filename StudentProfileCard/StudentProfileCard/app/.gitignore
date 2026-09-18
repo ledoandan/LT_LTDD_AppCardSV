@@ -1,0 +1,45 @@
+# Bỏ qua các file Build và thư mục tự sinh (Rất nặng và thay đổi liên tục)
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+app/build/
+.gradle/
+
+# Bỏ qua cấu hình cá nhân (Chứa đường dẫn SDK máy bạn, tuyệt đối không push)
+local.properties
+
+# Bỏ qua các file cấu hình giao diện/cache của Android Studio (IntelliJ)
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/navEditor.xml
+.navigation/
+captures/
+
+# Bỏ qua code C/C++ build (nếu có dùng sau này)
+.externalNativeBuild/
+.cxx/
+
+# Bỏ qua các file bảo mật (Keystore, API keys)
+*.jks
+*.keystore
+google-services.json
+
+# Bỏ qua file rác của hệ điều hành (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Bỏ qua file log
+*.log
